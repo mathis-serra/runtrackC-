@@ -9,6 +9,6 @@ int main()
     cin >> a;
     cout << "Enter another number: ";
     cin >> b;
-    cout << (a + b ) << endl;
+    cout << (a * b ) << endl;
     return 0;
 }
