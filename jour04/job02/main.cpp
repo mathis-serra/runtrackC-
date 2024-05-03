@@ -1,18 +1,36 @@
+
 #include<iostream>
-#include <algorithm>
 using namespace std; 
 
 int main()
 {
-    string chaine = "Laplateforme";
+    int var1; 
 
-    string *ptr = &chaine; 
+    cout << "choisie une variable" << endl ; 
 
-    reverse(ptr->begin(), ptr->end());
+    cin >> var1;
 
-    cout << *ptr << endl;
+    int var2; 
 
-    return 0;
+    cout << "choisie une deuxieme variable" << endl ; 
+
+    cin >> var2;
+
+    int *p1 = &var1;
+
+    int *p2 = &var2;
+
+
+    int temp = *p1;
+
+    *p1 = *p2;
+
+    *p2 = temp;
+
+    cout << "les valeurs incersées sont " << *p1 << " " << *p2 << endl;
+
+    return 0; 
+
 
 
 
