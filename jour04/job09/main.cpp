@@ -22,6 +22,10 @@ int main()
         cout << vect[i] << endl;
     }
 
+    // for (auto const element : vect){
+    //     cout << element << endl;
+    // }
+
         
     return 0;
 }
